@@ -102,7 +102,7 @@ border: 2px solid #FF5538 ;
 }
 
 #baner{
-    background: url(./image/Header.png);
+    background: url(../image/Header.png);
     background-repeat: no-repeat;
     background-size: cover;
     /* position: relative; */
