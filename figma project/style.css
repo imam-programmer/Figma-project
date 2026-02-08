@@ -358,11 +358,15 @@ box-shadow: 0px 44px 40px 0px rgba(0,0,0,0.02);
     left: 69px;
     z-index: -1;
 }
+#work .work-ball2{
+    position: absolute;
+    top: 56px;
+    left: 260px;
+}
 #work .item{
     height: 230px ;
     width: 259px;
-
-background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 #work .item h2{
     font-size: 40px;
