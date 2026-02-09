@@ -308,7 +308,7 @@ box-shadow: 0px 44px 40px 0px rgba(0,0,0,0.02);
 
 
 #completed .r-1{
-    margin-bottom: 30px;
+    margin-bottom: 100px;
 }
 #completed .column{
     padding-left: 0px;
@@ -458,8 +458,39 @@ box-shadow: 0px 44px 40px 0px rgba(0,0,0,0.02);
     line-height: 180%;
     margin-top: 60px;
 }
-.customer-img{
+#customer .customer-img{
     gap: 28px;
+}
+#customer .carousel-control-prev{
+    opacity: 1;
+}
+#customer .carousel-control-prev i{
+    color: black;
+    background-color: #FFDDD7;
+   width: 64px;
+   height: 64px;
+   line-height: 64px;
+   font-size: 24px;
+   border-radius: 10px;
+ position: absolute;
+ bottom: 33px;
+ left: 195px;
+  
+}
+#customer .carousel-control-next i{
+    color: black;
+    background-color: var(--orange);
+   width: 64px;
+   height: 64px;
+   line-height: 64px;
+   font-size: 24px;
+   border-radius: 10px;
+ position: absolute;
+ bottom: 33px;
+ left: -900px;
+}
+#customer .carousel-control-next{
+    opacity: 1;
 }
 
 /* ==========================customer end===================== */
